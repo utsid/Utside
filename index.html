@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utside IPTV - Seu Entretenimento Completo</title>
+  <style>
+    /* Reset básico */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { color: #333; }
+
+    /* Estilo do cabeçalho */
+    header {
+      background-image: url('https://www.wallpaperflare.com/static/554/1006/119/technology-tv-samsung-sound-wallpaper.jpg'); /* imagem de fundo representando IPTV */
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 3em 0;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    header h1 { font-size: 3em; margin-bottom: 0.5em; }
+    header p { font-size: 1.2em; }
+
+    /* Estilo das seções */
+    section { padding: 2em; text-align: center; }
+    h2 { font-size: 2em; color: #333; margin-bottom: 1em; }
+
+    /* Estilo dos planos */
+    .plans { display: flex; justify-content: center; gap: 1.5em; flex-wrap: wrap; }
+    .plans .plan {
+      width: 300px;
+      padding: 2em;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .plan:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    .plan h3 { color: #4b79a1; font-size: 1.8em; margin-bottom: 0.5em; }
+    .plan p { font-size: 1.1em; color: #555; }
+    .plan .price { font-size: 2em; color: #27ae60; margin: 0.8em 0; }
+    .btn {
+      display: inline-block;
+      background-color: #4b79a1;
+      color: #fff;
+      padding: 0.8em 1.5em;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    .btn:hover { background-color: #3a5c7d; }
+
+    /* Benefícios */
+    .benefits p { font-size: 1.2em; margin: 0.5em 0; color: #333; }
+
+    /* Botão de WhatsApp */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: #fff;
+      padding: 1em;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .whatsapp-btn:hover { background-color: #1ebd58; }
+
+    /* Contato */
+    footer { background-color: #333; color: #fff; padding: 1.5em; text-align: center; }
+    footer p { font-size: 1em; }
+
+    /* Animação */
+    .fade-in { animation: fadeIn 1.5s ease; }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="fade-in">
+    <h1>Utside IPTV</h1>
+    <p>Assista aos seus canais favoritos, filmes e séries onde quiser, sem complicações!</p>
+  </header>
+
+  <!-- Planos -->
+  <section class="plans fade-in">
+    <h2>Nossos Planos</h2>
+    <div class="plan">
+      <h3>Teste Grátis</h3>
+      <p>Experimente nossa IPTV sem custo</p>
+      <p class="price">R$0</p>
+      <a href="https://wa.me/5531995835794" class="btn" target="_blank">Solicitar Teste</a>
+    </div>
+    <div class="plan">
+      <h3>Assinatura</h3>
+      <p>Mais de 3000 canais e filmes</p>
+      <p class="price">R$40/mês</p>
+      <a href="https://wa.me/5531995835794" class="btn" target="_blank">Assinar Agora</a>
+    </div>
+  </section>
+
+  <!-- Benefícios -->
+  <section class="benefits fade-in">
+    <h2>Por que escolher a Utside IPTV?</h2>
+    <p>🌐 Acesso em qualquer lugar</p>
+    <p>📺 Canais em HD e 4K</p>
+    <p>🎬 Filmes e séries atualizados</p>
+    <p>⏰ Suporte 24/7</p>
+  </section>
+
+  <!-- Contato -->
+  <footer>
+    <p>Entre em contato pelo WhatsApp: <a href="https://wa.me/5531995835794" style="color: #fff; text-decoration: underline;">+55 31 99583-5794</a></p>
+    <p>&copy; 2024 Utside IPTV - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Botão de WhatsApp -->
+  <a href="https://wa.me/5531995835794" class="whatsapp-btn" target="_blank">&#x1F4F2;</a>
+
+</body>
+</html>
